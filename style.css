@@ -12,7 +12,7 @@ button{
 
 }
 .accordion-item h4{
-    color: blue;
+    color: blue !important;
 }
 .accordion-item h4:hover{
         text-decoration: underline;
