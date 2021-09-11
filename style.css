@@ -11,7 +11,24 @@
 button{
 
 }
-.page-no{
-    float: right !important;
-    margin: 10px 0;
+.accordion-item h4{
+    color: blue;
+}
+.accordion-item h4:hover{
+        text-decoration: underline;
+
+}
+.accordion-button::after{
+    display: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: none;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+element.style {
+    position: absolute;
+    inset: -123px auto auto -15px !important;
+    margin: 0px;
+    transform: translate(113px, 40px);
 }
